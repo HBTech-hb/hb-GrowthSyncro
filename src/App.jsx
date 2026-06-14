@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Services from "./components/Services";
-import Portfolio from "./components/Portfolio";
+import Projects from "./components/Projects";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -19,7 +19,7 @@ function App() {
         "home",
         "about",
         "services",
-        "Portfolio",
+        "Projects",
         "pricing",
         "contact",
       ];
@@ -59,7 +59,7 @@ function App() {
       <Home />
       <About />
       <Services />
-      <Portfolio />
+      <Projects />
       <Pricing />
       <TestimonialsSlider />
       <Contact />

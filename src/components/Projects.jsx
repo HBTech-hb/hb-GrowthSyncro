@@ -224,4 +224,4 @@ const Projects = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
