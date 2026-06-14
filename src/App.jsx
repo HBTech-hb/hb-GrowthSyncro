@@ -19,7 +19,7 @@ function App() {
         "home",
         "about",
         "services",
-        "portfolio",
+        "Portfolio",
         "pricing",
         "contact",
       ];
