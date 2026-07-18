@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { projectsData } from "../data/projectsData";
 
-const Projects = () => {
+const Work = () => {
   const [activeTab, setActiveTab] = useState("graphics");
   const [selectedImage, setSelectedImage] = useState(null);
   const [selectedVideo, setSelectedVideo] = useState(null);
@@ -9,7 +9,7 @@ const Projects = () => {
 
   return (
     <section
-      id="portfolio"
+      id="Work"
       className="py-20 px-6 sm:px-10 bg-[var(--surface)]"
     >
       <div className="max-w-7xl mx-auto">
@@ -17,7 +17,7 @@ const Projects = () => {
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
-            My Portfolio
+            Helping Businesses Build a Strong Online Presence
           </h2>
 
           <p className="text-[var(--text-muted)] mt-4 max-w-3xl mx-auto">
@@ -224,4 +224,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Work;

@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 // import ThemeToggle from "./components/ThemeToggle";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 
 import About from "./components/About";
 import Services from "./components/Services";
-import Projects from "./components/Projects";
+import Work from "./components/Work";
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -21,7 +22,7 @@ function App() {
         "home",
         "about",
         "services",
-        "Projects",
+        "Work",
         "pricing",
         "contact",
       ];
@@ -62,12 +63,14 @@ function App() {
       <Home />
       <About />
       <Services />
-      <Projects />
+      <Work />
       <Pricing />
       <TestimonialsSlider />
       <Contact />
       <Footer />
      
+      {/* FLOATING BUTTON (GLOBAL) */}
+      <FloatingWhatsApp />
     </div>
   );
 }

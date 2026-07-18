@@ -45,19 +45,18 @@ const Services = () => {
     >
       <div className="max-w-7xl mx-auto">
 
-        {/* Section Heading */}
+        {/* SECTION HEADING (IMPROVED) */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900">
-            Services I Offer
+            How I Help Your Business Get More Customers
           </h2>
 
           <p className="text-[var(--text-muted)] text-lg mt-4 max-w-3xl mx-auto">
-            Helping businesses grow online through content creation,
-            social media management, reel editing, and digital marketing.
+            Simple digital solutions designed to turn your online presence into real WhatsApp messages, calls, and customer enquiries.
           </p>
         </div>
 
-        {/* Service Cards */}
+        {/* SERVICE CARDS */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {services.map((service, index) => (
@@ -78,6 +77,26 @@ const Services = () => {
               </p>
             </div>
           ))}
+
+        </div>
+
+        {/* 🔥 NEW CTA SECTION (IMPORTANT ADDITION) */}
+        <div className="text-center mt-16">
+
+          <h3 className="text-3xl font-bold text-slate-900 mb-4">
+            Want These Results for Your Business?
+          </h3>
+
+          <p className="text-[var(--text-muted)] mb-6">
+            Let’s build a simple system that brings you real customers through your website and social media.
+          </p>
+
+          <a
+            href="https://wa.me/918080224138?text=Hi%20I%20want%20help%20to%20get%20more%20customers"
+            className="px-8 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 transition"
+          >
+            Get Free Consultation on WhatsApp
+          </a>
 
         </div>
 

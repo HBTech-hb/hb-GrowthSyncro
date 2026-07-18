@@ -23,21 +23,21 @@ const Home = () => {
         <div className="w-full md:w-1/2 text-center md:text-left">
 
           <p className="text-blue-600 font-semibold mb-3">
-           HB Digital Growth Partner
+            HB Digital Growth Partner
           </p>
 
           {/* 🔥 TYPEWRITER HEADLINE */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
 
-            Helping Small Businesses Grow with
+            Helping Small Businesses Get More Customers Through
 
             <span className="block text-blue-600 mt-2">
               <Typewriter
                 words={[
-                  "Social Media Marketing",
-                  "Reel Editing",
-                  "Content Creation",
-                  "AI Growth Systems"
+                  "More Customer Calls",
+                  "More WhatsApp Enquiries",
+                  "Better Google Visibility",
+                  "High-Converting Websites"
                 ]}
                 loop={0}
                 cursor
@@ -50,16 +50,18 @@ const Home = () => {
 
           </h1>
 
+          {/* DESCRIPTION */}
           <p className="text-[var(--text-muted)] text-lg mt-6 max-w-xl">
-            I help businesses create content, manage social media,
-            edit high-performing reels, and use AI tools to grow faster
-            and get more customers online.
+            I help small businesses turn their online presence into real customers using simple websites, WhatsApp integration, and Google visibility strategies that bring more calls and enquiries.
           </p>
 
           {/* TRUST LINE */}
-          <p className="text-gray-500 mt-4">
-            Social Media • Reels • Content Strategy • AI Growth Systems
-          </p>
+          <div className="mt-4 text-gray-500 space-y-1">
+            <p>✔ Websites designed to get customers</p>
+            <p>✔ WhatsApp + Google integration</p>
+            <p>✔ Fast 5–7 day delivery</p>
+            <p>✔ No technical knowledge required</p>
+          </div>
 
           {/* CTA ICONS */}
           <div className="flex gap-5 mt-8 justify-center md:justify-start">
@@ -74,7 +76,7 @@ const Home = () => {
             </a>
 
             <a
-              href="https://wa.me/918080224138?text=Hi%20Harshad,%20I%20want%20help%20to%20grow%20my%20business"
+              href="https://wa.me/918080224138?text=Hi%20Harshad,%20I%20want%20a%20website%20for%20my%20business"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[var(--text-muted)] hover:text-green-600 transition"
@@ -91,19 +93,24 @@ const Home = () => {
               href="#portfolio"
               className="px-8 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition text-center"
             >
-              View My Work
+              See Business Websites
             </a>
 
             <a
-              href="https://wa.me/918080224138?text=Hi%20Harshad,%20I%20want%20help%20to%20grow%20my%20business"
+              href="https://wa.me/918080224138?text=Hi%20Harshad,%20I%20want%20a%20free%20website%20plan%20for%20my%20business"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 border border-green-600 text-green-600 rounded-full hover:bg-green-600 hover:text-white transition text-center"
             >
-              Message Me
+              Get Free Website Plan
             </a>
 
           </div>
+
+          {/* TRUST MESSAGE */}
+          <p className="text-sm text-gray-400 mt-6">
+            Trusted by small businesses for building simple websites that generate real enquiries.
+          </p>
 
         </div>
 

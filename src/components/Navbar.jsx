@@ -42,7 +42,7 @@ const Navbar = ({ activeSection }) => {
 
           {/* Links */}
           <ul className="flex gap-8">
-            {["home", "about", "services", "portfolio", "pricing", "contact"].map(
+            {["home", "about", "services", "Work", "pricing", "contact"].map(
               (section) => (
                 <li key={section}>
                   <a
@@ -81,7 +81,7 @@ const Navbar = ({ activeSection }) => {
             Services
           </a>
 
-          <a href="#portfolio" className="flex flex-col items-center text-xs text-blue-600 hover:text-orange-500 transition">
+          <a href="#Work" className="flex flex-col items-center text-xs text-blue-600 hover:text-orange-500 transition">
             <FaImage className="text-xl" />
             Work
           </a>
