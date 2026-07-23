@@ -68,7 +68,7 @@ const FeaturedProject = React.memo(({ project, onViewModal }) => {
 
               <div className="p-4 rounded-2xl bg-blue-50/50 border border-blue-100/60">
                 <p className="text-xs uppercase tracking-wider font-bold text-blue-600 mb-1">
-                  The HB Digital Solution
+                  The HB GrowthSyncro Solution
                 </p>
                 <p className="text-sm text-slate-800 leading-snug">
                   {project.solution}

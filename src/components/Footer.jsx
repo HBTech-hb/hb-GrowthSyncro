@@ -23,13 +23,13 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-2">
               <img
                 src={logo}
-                alt="HB Digital"
+                alt="HB GrowthSyncro"
                 className="h-10 w-auto object-contain"
               />
             </div>
 
             <p className="text-slate-500 text-sm leading-relaxed max-w-xs">
-              HB Digital is the best Digital Growth Partner in Maharashtra, India. We offer complete IT & Marketing solutions under one floor!
+              HB GrowthSyncro is the best Digital Growth Partner in Maharashtra, India. We offer complete IT & Marketing solutions under one floor!
             </p>
 
             {/* Contact Details */}
@@ -157,10 +157,10 @@ const Footer = () => {
       {/* BOTTOM COPYRIGHT STRIP */}
       <div className="border-t border-slate-200/80 py-6 text-center text-xs font-semibold text-slate-700 bg-slate-100/60">
         <p className="text-sm font-bold text-slate-800 mb-1">
-          Copyright © {new Date().getFullYear()} HB Digital, India
+          Copyright © {new Date().getFullYear()} HB GrowthSyncro, India
         </p>
         <p className="text-slate-500 font-normal">
-          Web Design, Development & Digital Marketing Company - HB Digital, India
+          Web Design, Development & Digital Marketing Company - HB GrowthSyncro, India
         </p>
       </div>
 

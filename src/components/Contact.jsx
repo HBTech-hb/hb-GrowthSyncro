@@ -33,7 +33,7 @@ Message:
 ${formData.message}
 
 ----------------------
-Sent via website contact form (HB Digital Growth Partner)
+Sent via website contact form (HB GrowthSyncro Growth Partner)
 `;
 
       window.location.href = `mailto:bansodeharshad098@gmail.com?subject=${encodeURIComponent(
@@ -64,7 +64,7 @@ Sent via website contact form (HB Digital Growth Partner)
     <section id="contact" className="py-20 px-6 sm:px-10 bg-slate-50 text-slate-900">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900">Contact HB Digital</h2>
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900">Contact HB GrowthSyncro</h2>
           <p className="text-slate-600 mt-2">Let's discuss how we can help your business get more customers.</p>
         </div>
 

@@ -52,7 +52,7 @@ const Navbar = ({ activeSection }) => {
           <a href="#home" className="flex items-center">
             <img
               src={logo}
-              alt="HB Digital"
+              alt="HB GrowthSyncro"
               className="h-18 w-auto object-contain transition-transform active:scale-95"
             />
           </a>
@@ -82,7 +82,7 @@ const Navbar = ({ activeSection }) => {
             <a href="#home">
               <img
                 src={logo}
-                alt="HB Digital"
+                alt="HB GrowthSyncro"
                 className="h-12 w-auto object-contain transition duration-300"
               />
             </a>

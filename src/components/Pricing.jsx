@@ -25,7 +25,7 @@ const Pricing = () => {
         "Ideal for startups and local businesses looking to establish a high-trust digital foundation.",
       featured: false,
       ctaText: "Book Consultation",
-      whatsappMsg: "Hi HB Digital, I want to discuss the Business Launch plan (₹14,999).",
+      whatsappMsg: "Hi HB GrowthSyncro, I want to discuss the Business Launch plan (₹14,999).",
       features: [
         "Business Website (React Built)",
         "Fully Mobile Responsive UI",
@@ -46,7 +46,7 @@ const Pricing = () => {
         "For growing brands needing high local Google search visibility and consistent customer acquisition.",
       featured: true,
       ctaText: "Request Proposal",
-      whatsappMsg: "Hi HB Digital, I want to request a proposal for the Business Growth plan.",
+      whatsappMsg: "Hi HB GrowthSyncro, I want to request a proposal for the Business Growth plan.",
       features: [
         "Everything in Business Launch",
         "Advanced Local SEO Strategy",
@@ -67,7 +67,7 @@ const Pricing = () => {
         "A full-service digital partnership for businesses ready to dominate their local market.",
       featured: false,
       ctaText: "Become a Growth Partner",
-      whatsappMsg: "Hi HB Digital, I want to explore becoming a Growth Partner.",
+      whatsappMsg: "Hi HB GrowthSyncro, I want to explore becoming a Growth Partner.",
       features: [
         "Everything in Business Growth",
         "Smart AI Business Automation",

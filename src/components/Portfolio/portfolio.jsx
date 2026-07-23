@@ -45,7 +45,7 @@ const Portfolio = () => {
           </h1>
 
           <p className="text-slate-600 text-base sm:text-lg lg:text-xl mt-6 font-normal max-w-3xl mx-auto leading-relaxed">
-            HB Digital helps local businesses, clinics, and consumer brands engineer a dominant online presence through high-performance web systems, conversion-focused SEO, and automated lead funnels.
+            HB GrowthSyncro helps local businesses, clinics, and consumer brands engineer a dominant online presence through high-performance web systems, conversion-focused SEO, and automated lead funnels.
           </p>
         </div>
 

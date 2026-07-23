@@ -63,7 +63,7 @@ const Home = () => {
 
             {/* Conversion-Focused Description */}
             <p className="mt-6 text-base sm:text-lg text-slate-600 leading-relaxed font-normal max-w-2xl">
-              HB Digital helps local businesses, service providers, and growing brands attract high-intent customers. We engineer high-converting web systems, dominant local Google search profiles, and automated messaging funnels built for business growth.
+              HB GrowthSyncro helps local businesses, service providers, and growing brands attract high-intent customers. We engineer high-converting web systems, dominant local Google search profiles, and automated messaging funnels built for business growth.
             </p>
 
             {/* Trust Checklist */}
@@ -176,7 +176,7 @@ const Home = () => {
               <div className="relative rounded-b-xl overflow-hidden bg-slate-900 h-[360px] sm:h-[420px] flex flex-col justify-between p-6 text-white">
                 <img
                   src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000"
-                  alt="HB Digital Client Growth Dashboard"
+                  alt="HB GrowthSyncro Client Growth Dashboard"
                   className="absolute inset-0 w-full h-full object-cover opacity-35 mix-blend-overlay"
                 />
                 

@@ -64,7 +64,7 @@ const Services = () => {
           </span>
 
           <h2 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
-            How <span className="text-blue-600">HB Digital</span> Helps Your Business Get More Customers
+            How <span className="text-blue-600">HB GrowthSyncro</span> Helps Your Business Get More Customers
           </h2>
 
           <p className="text-slate-600 text-base sm:text-lg lg:text-xl mt-6 font-normal max-w-3xl mx-auto leading-relaxed">

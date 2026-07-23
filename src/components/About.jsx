@@ -24,7 +24,7 @@ const About = () => {
           </h1>
 
           <p className="text-slate-600 mt-6 max-w-3xl mx-auto text-base sm:text-lg leading-relaxed">
-            HB Digital builds simple, high-performing digital systems that help small businesses get more calls, WhatsApp messages, and direct enquiries — not just followers or views.
+            HB GrowthSyncro builds simple, high-performing digital systems that help small businesses get more calls, WhatsApp messages, and direct enquiries — not just followers or views.
           </p>
         </div>
 
@@ -37,7 +37,7 @@ const About = () => {
               Our Core Mission
             </span>
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">
-              What HB Digital Does For Your Business
+              What HB GrowthSyncro Does For Your Business
             </h2>
 
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed">
@@ -92,7 +92,7 @@ const About = () => {
           <div className="text-center max-w-2xl mx-auto mb-8">
             <span className="text-xs font-bold uppercase tracking-wider text-blue-600 block mb-2">Why Us</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Why Businesses Choose HB Digital
+              Why Businesses Choose HB GrowthSyncro
             </h2>
           </div>
 

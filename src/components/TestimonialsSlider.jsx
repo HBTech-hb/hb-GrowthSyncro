@@ -21,7 +21,7 @@ const testimonialsData = [
     avatar:
       "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200",
     review:
-      "HB Digital transformed our gym's online presence completely. Trial signups increased by 180% in 60 days, and our local Google Maps ranking jumped to the top 3. Professional execution from day one.",
+      "HB GrowthSyncro transformed our gym's online presence completely. Trial signups increased by 180% in 60 days, and our local Google Maps ranking jumped to the top 3. Professional execution from day one.",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ const testimonialsData = [
     avatar:
       "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200",
     review:
-      "The WhatsApp automated appointment funnel and website design HB Digital built reduced our missed inquiries dramatically. Our weekend consultations grew over 3x in just three months.",
+      "The WhatsApp automated appointment funnel and website design HB GrowthSyncro built reduced our missed inquiries dramatically. Our weekend consultations grew over 3x in just three months.",
   },
   {
     id: 3,
@@ -43,7 +43,7 @@ const testimonialsData = [
     avatar:
       "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=200",
     review:
-      "Patient trust is crucial in healthcare. HB Digital engineered a clean, medical-grade portal that instantly builds trust and streamlined our booking process. Highly recommended partner.",
+      "Patient trust is crucial in healthcare. HB GrowthSyncro engineered a clean, medical-grade portal that instantly builds trust and streamlined our booking process. Highly recommended partner.",
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ const testimonialsData = [
     avatar:
       "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
     review:
-      "We cut our dependency on third-party food aggregators by 30% thanks to HB Digital's digital menu system and local SEO strategy. Our direct orders and table bookings skyrocketed.",
+      "We cut our dependency on third-party food aggregators by 30% thanks to HB GrowthSyncro's digital menu system and local SEO strategy. Our direct orders and table bookings skyrocketed.",
   },
   {
     id: 5,
@@ -76,7 +76,7 @@ const testimonialsData = [
     avatar:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
     review:
-      "Our local retail boutique turned into a nationwide D2C brand with 40% of our revenue now generated online. HB Digital delivers fast, reliable, and high-ROI work every time.",
+      "Our local retail boutique turned into a nationwide D2C brand with 40% of our revenue now generated online. HB GrowthSyncro delivers fast, reliable, and high-ROI work every time.",
   },
 ];
 
@@ -147,7 +147,7 @@ const TestimonialSection = () => {
           </h2>
 
           <p className="text-slate-600 text-base sm:text-lg lg:text-xl mt-6 font-normal max-w-3xl mx-auto leading-relaxed">
-            See how HB Digital has helped local businesses build brand trust, dominate local search visibility, and generate consistent customer enquiries.
+            See how HB GrowthSyncro has helped local businesses build brand trust, dominate local search visibility, and generate consistent customer enquiries.
           </p>
         </div>
 
