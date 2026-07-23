@@ -4,10 +4,12 @@ import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
-
 import About from "./components/About";
 import Services from "./components/Services";
-import Work from "./components/Work";
+
+// Path matches your components/Portfolio/portfolio.jsx file
+import Portfolio from "./components/Portfolio/portfolio";
+
 import Pricing from "./components/Pricing";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -22,7 +24,7 @@ function App() {
         "home",
         "about",
         "services",
-        "Work",
+        "portfolio",
         "pricing",
         "contact",
       ];
@@ -47,7 +49,6 @@ function App() {
     };
 
     window.addEventListener("scroll", handleScroll);
-
     handleScroll();
 
     return () => {
@@ -58,17 +59,20 @@ function App() {
   return (
     <div className="font-poppins">
       <Navbar activeSection={activeSection} />
-{/* <ThemeToggle /> */}
-     
+      {/* <ThemeToggle /> */}
+      
       <Home />
       <About />
       <Services />
-      <Work />
+      
+      {/* Renders your portfolio component */}
+      <Portfolio />
+      
       <Pricing />
       <TestimonialsSlider />
       <Contact />
       <Footer />
-     
+      
       {/* FLOATING BUTTON (GLOBAL) */}
       <FloatingWhatsApp />
     </div>

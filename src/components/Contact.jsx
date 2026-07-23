@@ -1,5 +1,4 @@
-import { useState } from "react";
-import { FaPaperPlane, FaPhone, FaEnvelope } from "react-icons/fa";
+import React, { useState } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -24,13 +23,10 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      // Auto subject
       const subject = `I need help growing my business through digital marketing - ${formData.message.slice(0, 50)}`;
 
-      // Clean email body
       const body = `
 Name: ${formData.firstName} ${formData.lastName}
-
 Email: ${formData.email}
 
 Message:
@@ -40,14 +36,12 @@ ${formData.message}
 Sent via website contact form (HB Digital Growth Partner)
 `;
 
-      // Open default mail app
       window.location.href = `mailto:bansodeharshad098@gmail.com?subject=${encodeURIComponent(
         subject
       )}&body=${encodeURIComponent(body)}`;
 
       setSubmitStatus("success");
 
-      // Reset form
       setFormData({
         firstName: "",
         lastName: "",
@@ -55,58 +49,53 @@ Sent via website contact form (HB Digital Growth Partner)
         message: "",
       });
 
-      // 🔥 Reload page after mail opens
       setTimeout(() => {
         window.location.reload();
       }, 1200);
-
     } catch (error) {
       console.error(error);
       setSubmitStatus("error");
-    } finally {
+    } fontFinally: {
       setIsSubmitting(false);
     }
   };
 
   return (
-    <section id="contact" className="min-h-[70vh] py-16 px-4 sm:px-10 bg-gray-50">
-      <div className="max-w-2xl mx-auto">
+    <section id="contact" className="py-20 px-6 sm:px-10 bg-slate-50 text-slate-900">
+      <div className="max-w-4xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900">Contact HB Digital</h2>
+          <p className="text-slate-600 mt-2">Let's discuss how we can help your business get more customers.</p>
+        </div>
 
-        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12">
-          Contact Me
-        </h2>
-
-        {/* Contact Info */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
-
+        {/* Contact Links */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
           <a
             href="mailto:bansodeharshad098@gmail.com"
-            className="flex items-center gap-2 p-4 border border-gray-300 rounded-xl hover:bg-[var(--surface)] transition"
+            className="p-4 bg-white border border-slate-200 rounded-2xl flex items-center gap-3 shadow-sm hover:border-blue-600 transition"
           >
-            <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
-              <FaEnvelope className="text-blue-600" />
+            <div className="w-10 h-10 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center font-bold">@</div>
+            <div>
+              <p className="text-xs text-slate-500 font-semibold uppercase">Email Us</p>
+              <p className="text-sm font-bold text-slate-800">bansodeharshad098@gmail.com</p>
             </div>
-            <p className="hover:bg-[var(--surface)] transition" >Email Me : bansodeharshad098@gmail.com</p>
           </a>
 
-          <div className="flex items-center gap-2 p-4 border border-gray-300 rounded-xl">
-            <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center" >
-              <FaPhone className="text-green-600" />
+          <a
+            href="tel:+918080224138"
+            className="p-4 bg-white border border-slate-200 rounded-2xl flex items-center gap-3 shadow-sm hover:border-emerald-600 transition"
+          >
+            <div className="w-10 h-10 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center font-bold">📞</div>
+            <div>
+              <p className="text-xs text-slate-500 font-semibold uppercase">Call Us</p>
+              <p className="text-sm font-bold text-slate-800">+91 8080224138</p>
             </div>
-            <p>
-              <a href="tel:+918080224138" >
-                +91 8080224138
-              </a>
-            </p>
-          </div>
-
+          </a>
         </div>
 
         {/* Form */}
-        <form onSubmit={handleSubmit} className="space-y-4">
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-
+        <form onSubmit={handleSubmit} className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm space-y-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <input
               type="text"
               name="firstName"
@@ -114,9 +103,8 @@ Sent via website contact form (HB Digital Growth Partner)
               value={formData.firstName}
               onChange={handleChange}
               required
-              className="w-full p-3 border rounded-lg"
+              className="w-full p-3.5 border border-slate-200 rounded-xl text-sm"
             />
-
             <input
               type="text"
               name="lastName"
@@ -124,59 +112,44 @@ Sent via website contact form (HB Digital Growth Partner)
               value={formData.lastName}
               onChange={handleChange}
               required
-              className="w-full p-3 border rounded-lg"
+              className="w-full p-3.5 border border-slate-200 rounded-xl text-sm"
             />
-
           </div>
 
           <input
             type="email"
             name="email"
-            placeholder="Email"
+            placeholder="Email Address"
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full p-3 border rounded-lg"
+            className="w-full p-3.5 border border-slate-200 rounded-xl text-sm"
           />
 
           <textarea
             name="message"
-            placeholder="Message"
-            rows="5"
+            placeholder="Your Message"
+            rows="4"
             value={formData.message}
             onChange={handleChange}
             required
-            className="w-full p-3 border rounded-lg"
+            className="w-full p-3.5 border border-slate-200 rounded-xl text-sm resize-none"
           />
 
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full py-3 bg-blue-600 text-white rounded-lg flex items-center justify-center gap-2"
+            className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-xl transition shadow-md"
           >
-            {isSubmitting ? "Opening Mail..." : (
-              <>
-                <FaPaperPlane />
-                Send Message
-              </>
-            )}
+            {isSubmitting ? "Opening Mail..." : "Send Message"}
           </button>
 
-          {/* Status */}
           {submitStatus === "success" && (
-            <div className="p-4 bg-green-100 text-green-700 rounded-lg">
-              Mail opened successfully. Please click send in your email app.
-            </div>
+            <p className="p-3 bg-emerald-50 text-emerald-700 text-xs rounded-lg border border-emerald-200">
+              Mail app opened. Please click send in your email client.
+            </p>
           )}
-
-          {submitStatus === "error" && (
-            <div className="p-4 bg-red-100 text-red-700 rounded-lg">
-              Something went wrong. Try again.
-            </div>
-          )}
-
         </form>
-
       </div>
     </section>
   );

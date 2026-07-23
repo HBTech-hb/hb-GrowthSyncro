@@ -1,3 +1,4 @@
+import React from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const FloatingWhatsApp = () => {
@@ -6,15 +7,16 @@ const FloatingWhatsApp = () => {
       href="https://wa.me/918080224138?text=Hi%20I%20want%20help%20with%20my%20business"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 group"
+      aria-label="Chat on WhatsApp"
+      className="fixed bottom-24 right-5 md:bottom-6 md:right-6 z-[99999] group"
     >
       {/* BUTTON */}
-      <div className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-        <FaWhatsapp size={30} />
+      <div className="bg-emerald-500 hover:bg-emerald-600 text-white p-3.5 sm:p-4 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 group-hover:scale-110 active:scale-95">
+        <FaWhatsapp size={28} />
       </div>
 
-      {/* TOOLTIP */}
-      <span className="absolute right-16 bottom-3 bg-black text-white text-sm px-3 py-1 rounded-lg opacity-0 group-hover:opacity-100 transition whitespace-nowrap">
+      {/* TOOLTIP (Hidden on mobile touch screens, visible on desktop hover) */}
+      <span className="hidden md:block absolute right-16 bottom-3 bg-slate-900 text-white text-xs font-semibold px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap shadow-md pointer-events-none">
         Chat on WhatsApp
       </span>
     </a>
